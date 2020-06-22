@@ -28,6 +28,7 @@ export interface FetchSuccess<T> {
 
 export interface FetchError {
   type: 'ERROR';
+  errorMessage?: string;
 }
 
 export interface FetchLoading {
